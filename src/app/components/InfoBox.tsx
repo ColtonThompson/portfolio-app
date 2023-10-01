@@ -14,7 +14,7 @@ export default function InfoBox(props: ProjectItem) {
 
     return(
         <div>
-            <div className="container box-content h-64 w-64 p-4 border-2 bg-gray-500 rounded-md px-2 py-2">           
+            <div className="box-content h-48 w-64 p-4 border-2 bg-gray-500 rounded-md">           
                 <h3 className="font-bold text-white text-2xl">{props.name}</h3>
                 <h5 className="italic text-white text-1xl">{props.description}</h5>
                 <br/>
@@ -23,7 +23,6 @@ export default function InfoBox(props: ProjectItem) {
                         GitHub
                     </button>
                 </div>
-
             </div>
         </div>
     );
