@@ -4,8 +4,15 @@ import React, { useEffect, useState } from 'react';
 import Loading from './Loading';
 import InfoBox from './InfoBox';
 
+interface ProjectItem {
+  id : number,
+  name : string,
+  description : string,
+  repositoryURL : string
+}
+
 export default function ProjectList() {
-    const [projects, setProjects] = useState([]);
+    const [projectsList, setProjectsList] = useState<ProjectItem[] | null>();
     const [loading, setLoading] = useState(false);
 
     useEffect(() => {
@@ -14,7 +21,7 @@ export default function ProjectList() {
         fetch('http://localhost:8080/projects/all')
           .then(response => response.json())
           .then(data => {
-            setProjects(data);
+            setProjectsList(data);
             setLoading(false);
           })
       }, []);
@@ -22,11 +29,15 @@ export default function ProjectList() {
       if (loading) {
         return <Loading/>
       }
+      if (projectsList == null)
+        return "<p className='text-red'>Projects unable to load!<p>"
 
     return(
         <div className="flex mx-auto items-center justify-center space-x-5">
-            {projects.map(proj =>
-                <InfoBox title={proj.name} desc={proj.description} repo={proj.repositoryURL}/>
+            {projectsList.map(project => 
+              <div key={project.id}>
+              <InfoBox id={project.id} name={project.name} description={project.description} repositoryURL={project.repositoryURL}/>
+              </div>
             )}
         </div>
     );
