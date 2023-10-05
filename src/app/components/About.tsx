@@ -7,12 +7,14 @@ export default function About() {
                 <div className="h-[250px] min-h-[1em] w-px self-stretch bg-gradient-to-tr from-transparent via-neutral-500 to-transparent opacity-20 dark:opacity-100"></div>
                 <p className="pl-6 text-slate-300">
                     Recent B.S. graduate with a major in computer science and software development with personal experience in developing desktop & web-based applications.
-                    <br />
-                    <br />
+                </p>
+                <p className="pl-6 text-slate-300">
                     I am also a content creator, my gaming YouTube channel (<a href="https://youtube.com/@Nightleaf" target="_blank">@Nightleaf</a>) was started on April 1st, 2023 and gained over 25,000 views by August 1st, 2023.
                     I use the Adobe Creative Suite to create the artwork and illustrations, I edit my videos using Davinci Resolve but have also used Adobe Premiere in the past.
                 </p>
-
+                <p className="pl-6 text-slate-300">
+                    My goal is to work in the games industry! I am currently learning how to use Godot to build 2D projects, soon you will see those projects visible in <a href="/projects">My Projects</a> on this site.
+                </p>
             </div>
             <div className="container justify-center items-center mx-auto">
                 <h2 className="text-4xl font-bold text-center text-slate-300">EDUCATION</h2>
