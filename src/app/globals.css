@@ -8,7 +8,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
     Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  background: #000000;
+  background: #191a1d;
   min-height: 100vh;
   display: flex;
   color: rgb(243, 241, 239);
@@ -17,11 +17,11 @@ body {
 }
 
 a { 
-    color:greenyellow; 
+    color:#5a728a; 
 }
 
 a:hover {
-    color:green;
+    color:white;
 }
 
 .block {
@@ -83,14 +83,13 @@ a:hover {
   border-radius: 5px;
 }
 
-.button_old {
-  display: flex;
-  align-items: center;
-}
-
 .info_button {
   position: relative;
   bottom: 15px;
+}
+
+.infobox {
+  background-color: #5a728a;
 }
 
 textarea {
