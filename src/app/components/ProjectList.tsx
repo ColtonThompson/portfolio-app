@@ -14,7 +14,7 @@ interface ProjectItem {
 export default function ProjectsList() {
   return(
   <div>
-    <h3 className="text-white py-4">Websites</h3>
+    <h2 className="text-4xl text-slate-300 py-4">Websites</h2> 
     <div className="container mx-auto">
       <div className="flex flex-wrap justify-center items-center">  
         <div className="grid grid-rows-9 grid-cols-4 gap-2">
@@ -24,16 +24,17 @@ export default function ProjectsList() {
         </div>
       </div>
     </div>
-    <h3 className="text-white py-4">Video Games</h3>
+    <h2 className="text-4xl text-slate-300 py-4">Game Development</h2> 
     <div className="container mx-auto">
       <div className="flex flex-wrap justify-center items-center">  
         <div className="grid grid-rows-9 grid-cols-4 gap-2">
-          <div><InfoBox id={1} name="Astra" description="2D orthographic video-game prototype with a basic tile system using Slick2D." repositoryURL="https://github.com/Nightleaf/Astra"/></div>
-          <div><InfoBox id={1} name="Cepheus" description="2D space prototype built in Unity" repositoryURL="https://github.com/Nightleaf/Cepheus"/></div>
+          <div><InfoBox id={1} name="Astra" description="2D orthographic video-game prototype with a basic tile system written in Java powered by Slick2D libraries." repositoryURL="https://github.com/Nightleaf/Astra"/></div>
+          <div><InfoBox id={1} name="Cepheus" description="2D space prototype written in C# built in Unity" repositoryURL="https://github.com/Nightleaf/Cepheus"/></div>
+          <div><InfoBox id={1} name="GameThing" description="2D top down adventure/rpg prototype written in GDScript for Godot 4.1" repositoryURL="https://www.youtube.com/watch?v=7OO5r-bzZN4"/></div>
         </div>
       </div>
     </div>
-    <h3 className="text-white py-4">Desktop Applications</h3>
+    <h2 className="text-4xl text-slate-300 py-4">Desktop Applications</h2> 
     <div className="container mx-auto">
       <div className="flex flex-wrap justify-center items-center">  
         <div className="grid grid-rows-9 grid-cols-4 gap-2">

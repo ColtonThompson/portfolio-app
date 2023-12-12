@@ -19,10 +19,11 @@ export default function InfoBox(props: ProjectItem) {
                 <h5 className="italic text-white text-1xl">{props.description}</h5>
                 <br/>
                 <div className="grid grid-cols-2 gap-4 place-content-between h-48 ...">
-                    <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-5 rounded-lg" onClick={() => handleClick(props.repositoryURL)}>
-                        GitHub
+                    <button className="info_button bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-5 rounded-lg" onClick={() => handleClick(props.repositoryURL)}>
+                        View Project
                     </button>
                 </div>
+
             </div>
         </div>
     );

@@ -83,9 +83,14 @@ a:hover {
   border-radius: 5px;
 }
 
-.button {
+.button_old {
   display: flex;
   align-items: center;
+}
+
+.info_button {
+  position: relative;
+  bottom: 15px;
 }
 
 textarea {
