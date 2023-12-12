@@ -7,11 +7,11 @@ export default function Intro() {
             <div className="lg:space-x-5 lg:flex lg:flex-row item-center lg:-mx-4 flex flex-col-reverse text-center lg:text-left">
                 <div className="lg:px-4 lg:mt-12 ">
                     <h1 className="text-2xl font-bold text-gray-900 lg:text-5xl dark:text-white">
-                        Hey, I'm Colton.
+                        Hey, I&apos;m Colton.
                     </h1>
                     <div className="mt-6 text-slate-400">
                         <p className="mb-4">
-                        I'm a software engineer from Utah in the United States. I like to create a wide variety of projects from desktop apps to websites to video games!
+                        I&apos;m a software engineer from Utah in the United States. I like to create a wide variety of projects from desktop apps to websites to video games!
                         </p>
                     </div>
                 </div>

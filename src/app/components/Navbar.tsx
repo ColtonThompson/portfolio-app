@@ -12,7 +12,7 @@ export default function Navbar() {
             <div className="w-full h-20 sticky top-0">
                 <div className="container mx-auto px-4 h-full">
                     <div className="flex justify-between items-center h-full">
-                        <h3 className="font-bold text-white text-2xl">COLTON'S PORTFOLIO</h3>
+                        <h3 className="font-bold text-white text-2xl">COLTON&apos;S PORTFOLIO</h3>
                         <ul className="hidden md:flex gap-x-6 text-white">
                             <Link 
                                 key="/"
