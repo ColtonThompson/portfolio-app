@@ -9,7 +9,7 @@ export default function About() {
                     Graduated Cum Laude with an overall GPA of 3.65 at Southern New Hampshire University on May 1st, 2021.
                     <br />
                     <br />
-                    <h2 className="text-4xl font-bold text-center text-gray-200">SKILLS</h2>
+                    <h2 className="text-4xl font-bold text-center text-gray-200">EXPERIENCE WITH</h2>
 
                 </p>
                 <div className="flex justify-center items-center">
@@ -17,10 +17,12 @@ export default function About() {
                         <tbody>
                             <tr>
                                 <td className="border border-slate-700 text-slate-400">JAVA</td>
+                                <td className="border border-slate-700 text-slate-400">GDSCRIPT</td>
                                 <td className="border border-slate-700 text-slate-400">JAVASCRIPT</td>
                                 <td className="border border-slate-700 text-slate-400">PHP</td>
                                 <td className="border border-slate-700 text-slate-400">HTML</td>
                                 <td className="border border-slate-700 text-slate-400">CSS</td>
+                                <td className="border border-slate-700 text-slate-400">PYTHON</td>
                                 <td className="border border-slate-700 text-slate-400">SPRINGBOOT</td>
                                 <td className="border border-slate-700 text-slate-400">REACT.JS</td>
                                 <td className="border border-slate-700 text-slate-400">TAILWIND</td>

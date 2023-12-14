@@ -5,9 +5,9 @@ import ShowProjects from "../components/Projects";
 export default function Home() {
     return(
         <main>
-        <Navbar />
-        <ShowProjects />
-        <Footer />
-    </main>
+            <Navbar />
+            <ShowProjects />
+            <Footer />
+        </main>
     );
 }

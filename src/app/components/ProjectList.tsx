@@ -18,7 +18,8 @@ export default function ProjectsList() {
     <div className="container mx-auto">
       <div className="flex flex-wrap justify-center items-center">  
         <div className="grid grid-rows-9 grid-cols-4 gap-2">
-          <div><InfoBox id={1} name="IronmanGuide" description="Guide on how to play as an IronMan in Old School RuneScape." repositoryURL="https://github.com/ColtonThompson/IronmanGuide"/></div>
+          <div><InfoBox id={1} name="Portfolio Site" description="This website is written in React.js using NextJS/TailwindCSS" repositoryURL="https://github.com/ColtonThompson/portfolio-app"/></div>
+          <div><InfoBox id={1} name="IronmanGuide" description="Guide on how to play as an IronMan in Old School RuneScape. Written in PHP Using the CodeIgniter MVC framework." repositoryURL="https://github.com/ColtonThompson/IronmanGuide"/></div>
           <div><InfoBox id={1} name="ScarySuperior" description="My first ReactJS project. Creates a table view for JSON data." repositoryURL="https://github.com/ColtonThompson/ScarySuperior"/></div>
           <div><InfoBox id={1} name="Relleka Web" description="RuneScape fansite written in PHP/HTML/CSS." repositoryURL="https://github.com/ColtonThompson/Relleka"/></div>
         </div>
@@ -38,8 +39,8 @@ export default function ProjectsList() {
     <div className="container mx-auto">
       <div className="flex flex-wrap justify-center items-center">  
         <div className="grid grid-rows-9 grid-cols-4 gap-2">
-          <div><InfoBox id={1} name="ModGrabber" description="Tool to download mod music from ModArchive.org." repositoryURL="https://github.com/ColtonThompson/ModGrabber"/></div>
-          <div><InfoBox id={1} name="Scraper" description="Web scraper to pull data from a list of members from a forum." repositoryURL="https://github.com/ColtonThompson/Scraper"/></div>
+          <div><InfoBox id={1} name="ModGrabber" description="Tool to download mod music from ModArchive.org. Written in C#." repositoryURL="https://github.com/ColtonThompson/ModGrabber"/></div>
+          <div><InfoBox id={1} name="Scraper" description="Web scraper to pull data from a list of members from a forum. Written in Java." repositoryURL="https://github.com/ColtonThompson/Scraper"/></div>
           <div><InfoBox id={1} name="AuthenticationSystem" description="School project to create an authentication system in Java." repositoryURL="https://github.com/ColtonThompson/AuthenticationSystem"/></div>
         </div>
       </div>
