@@ -10,7 +10,7 @@ export default function ShowProjects() {
                 </h2>   
             </div>
             <div className="mt-6 mr-10 ml-10 text-slate-400">
-                <p className="mr-36 ml-36">
+                <p>
                     Below is a list of personal projects that I have developed over the years across many different languages and software applications.
                 </p>
             </div>
