@@ -34,8 +34,17 @@ function Cyst() {
      The concept for this game was to have buildings you place that require another building nearby before allowing placement, this would generate infestation that ultimately will cover the map.
      You are fighting against the computer however that sends endless waves of enemies that want to destroy all of your buildings and units. Your goal is to spread and survive as long as possible.
     </p>
+    
     <h2 className="text-2xl">Media</h2>
     <div className="container inline-flex">
+    <div className="px-5">
+        <Image
+        src="https://i.imgur.com/YZnp547.gif"
+        width={500}
+        height={500}
+        alt="Bad guys movin in!"
+        />
+      </div>  
       <div className="px-5">
         <Image
         src="https://i.imgur.com/J6Zi4Oc.gif"
@@ -43,7 +52,7 @@ function Cyst() {
         height={500}
         alt="Placing cysts on the map!"
         />
-      </div>
+      </div>    
     </div>
   </div>
   );
