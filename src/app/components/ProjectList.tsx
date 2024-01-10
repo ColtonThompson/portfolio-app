@@ -30,7 +30,7 @@ function Cyst() {
     <h2 className="text-slate-400 px-5">Project Goals: Develop a 2d game based on the theme: BUILDING CONNECTIONS</h2>
     <h2 className="text-slate-400 px-5">Development: This project was developed in GDScript along with the Godot Engine.</h2>
     <p className="text-slate-500 py-5 px-2 mr-10 ml-10">Cyst is a project that is developed with GDScript in the Godot Engine.
-     This project was created for the New Year New Skills Game Jam on Itch.io, the theme was "Building Connections". 
+     This project was created for the New Year New Skills Game Jam on Itch.io, the theme was building connects. 
      The concept for this game was to have buildings you place that require another building nearby before allowing placement, this would generate infestation that ultimately will cover the map.
      You are fighting against the computer however that sends endless waves of enemies that want to destroy all of your buildings and units. Your goal is to spread and survive as long as possible.
     </p>
