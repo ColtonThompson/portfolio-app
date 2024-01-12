@@ -39,6 +39,14 @@ function Cyst() {
     <div className="container inline-flex">
     <div className="px-5">
         <Image
+        src="https://i.imgur.com/Nkma93n.gif"
+        width={500}
+        height={500}
+        alt="Polishing the game!"
+        />
+      </div>       
+    <div className="px-5">
+        <Image
         src="https://i.imgur.com/YZnp547.gif"
         width={500}
         height={500}
