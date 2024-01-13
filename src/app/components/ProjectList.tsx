@@ -4,6 +4,7 @@ import React, { useEffect, useState } from 'react';
 import Image from 'next/image'
 import Loading from './Loading';
 import InfoBox from './InfoBox';
+import Link from 'next/link';
 
 interface ProjectItem {
   id : number,
@@ -23,6 +24,12 @@ export default function ProjectsList() {
 }
 
 function Cyst() {
+
+  function handleClick(url: string) {
+      console.log("Button was pressed " + url);
+      window.open(url, '_blank');
+  }
+
   return(
   <div className="py-5">
     <h2 className="text-4xl text-slate-300">Cyst</h2> 
@@ -34,6 +41,9 @@ function Cyst() {
      The concept for this game was to have buildings you place that require another building nearby before allowing placement, this would generate infestation that ultimately will cover the map.
      You are fighting against the computer however that sends endless waves of enemies that want to destroy all of your buildings and units. Your goal is to spread and survive as long as possible.
     </p>
+    <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold px-3 py-3 mb-5" onClick={() => handleClick("https://nightleaf.itch.io/cyst")}>
+        Download Cyst
+    </button>
     
     <h2 className="text-2xl">Media</h2>
     <div className="container inline-flex">
