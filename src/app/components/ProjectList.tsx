@@ -16,11 +16,57 @@ interface ProjectItem {
 export default function ProjectsList() {
   return(
   <div className="container wrap">  
+    <InfraStream></InfraStream>
     <Cyst></Cyst> 
     <GameThing></GameThing>
     <PortfolioApp></PortfolioApp>
   </div>     
   );
+}
+
+function InfraStream() {
+  return(
+    <div className="py-5">
+      <h2 className="text-4xl text-slate-300">InfraStream</h2> 
+      <h2 className="text-slate-400 px-5">Project Start Date: January 22nd, 2024</h2>
+      <h2 className="text-slate-400 px-5">Project Goals: Develop an infrastructure for my Twitch channel</h2>
+      <h2 className="text-slate-400 px-5">Development: This project was developed in javascript on the NodeJS runtime</h2>
+      <p className="text-slate-500 py-5 px-2 mr-10 ml-10">Infrastream is a backend infrastructure to provide support for custom systems in regards to my Twitch channel.
+      The goals of the project was to develop a chatbot to provide moderation, commands and logging. InfraStream also contains a REST API that is used for accessing/modifying this information.
+      Chat commands for example are stored in MySQL which is managed by the API, a moderator could access a command and modify it from chat or a interface such as a desktop app or a website.
+      The next microservice is the events system that will watch for twitch api events such as follower/subscriber/cheer events and log them into a system allowing alerts to be displayed or announced in chat.
+      A desktop application developed in Electron is also planned for moderators to have access to the API as well as the chatbot to help configure/moderate the channel.
+      </p>
+      
+      <h2 className="text-2xl">Media</h2>
+      <div className="container inline-flex">
+      <div className="px-5">
+          <Image
+          src="https://i.imgur.com/KIXDUeR.png"
+          width={500}
+          height={500}
+          alt="Database on the API of chat messages"
+          />
+        </div>       
+      <div className="px-5">
+          <Image
+          src="https://i.imgur.com/SpMl1At.png"
+          width={500}
+          height={500}
+          alt="PM2+ Performance Monitoring of the microservices"
+          />
+        </div>  
+        <div className="px-5">
+          <Image
+          src="https://i.imgur.com/ahzOaCI.png"
+          width={500}
+          height={500}
+          alt="Example of a user being moderated"
+          />
+        </div>    
+      </div>
+    </div>
+    );
 }
 
 function Cyst() {
