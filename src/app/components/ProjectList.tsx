@@ -25,6 +25,8 @@ export default function ProjectsList() {
 }
 
 function InfraStream() {
+  const img1 = "/projects/infrastream/console.jpg"
+  const img2 = "/projects/infrastream/moderation.png"
   return(
     <div className="py-5">
       <h2 className="text-4xl text-slate-300">InfraStream</h2> 
@@ -42,7 +44,7 @@ function InfraStream() {
       <div className="container inline-flex">
       <div className="px-5">
           <Image
-          src="https://i.imgur.com/KIXDUeR.png"
+          src={img1}
           width={500}
           height={500}
           alt="Database on the API of chat messages"
@@ -50,26 +52,21 @@ function InfraStream() {
         </div>       
       <div className="px-5">
           <Image
-          src="https://i.imgur.com/SpMl1At.png"
+          src={img2}
           width={500}
           height={500}
           alt="PM2+ Performance Monitoring of the microservices"
           />
-        </div>  
-        <div className="px-5">
-          <Image
-          src="https://i.imgur.com/ahzOaCI.png"
-          width={500}
-          height={500}
-          alt="Example of a user being moderated"
-          />
-        </div>    
+        </div>     
       </div>
     </div>
     );
 }
 
 function Cyst() {
+  const img1 = "/projects/cyst/1.gif"
+  const img2 = "/projects/cyst/2.gif"
+  const img3 = "/projects/cyst/3.gif"
 
   function handleClick(url: string) {
       console.log("Button was pressed " + url);
@@ -95,7 +92,7 @@ function Cyst() {
     <div className="container inline-flex">
     <div className="px-5">
         <Image
-        src="https://i.imgur.com/Nkma93n.gif"
+        src={img1}
         width={500}
         height={500}
         alt="Polishing the game!"
@@ -103,7 +100,7 @@ function Cyst() {
       </div>       
     <div className="px-5">
         <Image
-        src="https://i.imgur.com/YZnp547.gif"
+        src={img2}
         width={500}
         height={500}
         alt="Bad guys movin in!"
@@ -111,7 +108,7 @@ function Cyst() {
       </div>  
       <div className="px-5">
         <Image
-        src="https://i.imgur.com/J6Zi4Oc.gif"
+        src={img3}
         width={500}
         height={500}
         alt="Placing cysts on the map!"
@@ -123,6 +120,9 @@ function Cyst() {
 }
 
 function GameThing() {
+  const img1 = "/projects/gamething/latest.png"
+  const img2 = "/projects/gamething/new_art.png"
+  const img3 = "/projects/gamething/trees_added.png"
   return(
   <div className="py-5">
     <h2 className="text-4xl text-slate-300">GameThing</h2> 
@@ -145,7 +145,7 @@ function GameThing() {
     <div className="container inline-flex">
       <div className="px-5">
         <Image
-        src="https://i.imgur.com/gJfKhlA.png"
+        src={img1}
         width={500}
         height={500}
         alt="Adding hearts to display health!"
@@ -153,7 +153,7 @@ function GameThing() {
       </div>
       <div className="px-5">
         <Image
-        src="https://i.imgur.com/oIVuLib.png"
+        src={img2}
         width={500}
         height={500}
         alt="Objects added to the procedural generation"
@@ -161,7 +161,7 @@ function GameThing() {
       </div>
       <div className="px-5">
         <Image
-        src="https://i.imgur.com/e3K2ptt.png"
+        src={img3}
         width={500}
         height={500}
         alt="First time getting a world generated"
