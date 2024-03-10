@@ -29,6 +29,7 @@ function InfraStream() {
   const img2 = "/projects/infrastream/moderation.png"
   return(
     <div className="py-5">
+      <div className="border border-sky-200 py-5 px-5">
       <h2 className="text-4xl text-slate-300">InfraStream</h2> 
       <h2 className="text-slate-400 px-5">Project Start Date: January 22nd, 2024</h2>
       <h2 className="text-slate-400 px-5">Project Goals: Develop an infrastructure for my Twitch channel</h2>
@@ -59,6 +60,7 @@ function InfraStream() {
           />
         </div>     
       </div>
+      </div>
     </div>
     );
 }
@@ -75,6 +77,7 @@ function Cyst() {
 
   return(
   <div className="py-5">
+    <div className="border border-sky-200 py-5 px-5">
     <h2 className="text-4xl text-slate-300">Cyst</h2> 
     <h2 className="text-slate-400 px-5">Project Start Date: January 7th, 2024</h2>
     <h2 className="text-slate-400 px-5">Project Goals: Develop a 2d game based on the theme: BUILDING CONNECTIONS</h2>
@@ -115,6 +118,7 @@ function Cyst() {
         />
       </div>    
     </div>
+    </div>
   </div>
   );
 }
@@ -125,6 +129,7 @@ function GameThing() {
   const img3 = "/projects/gamething/trees_added.png"
   return(
   <div className="py-5">
+    <div className="border border-sky-200 py-5 px-5">
     <h2 className="text-4xl text-slate-300">GameThing</h2> 
     <h2 className="text-slate-400 px-5">Project Start Date: November 15th, 2023</h2>
     <h2 className="text-slate-400 px-5">Project Goals: Develop a 2d Orthographic RPG with an infinitely procedurally generated map.</h2>
@@ -168,6 +173,7 @@ function GameThing() {
         />
       </div>
     </div>
+    </div>
   </div>
   );
 }
@@ -175,6 +181,7 @@ function GameThing() {
 function PortfolioApp() {
   return(
   <div className="py-5">
+    <div className="border border-sky-200 py-5 px-5">
     <h2 className="text-4xl text-slate-300">Portfolio Website</h2> 
     <h2 className="text-slate-400 px-5">Project Start Date: September 25th, 2023</h2>
     <h2 className="text-slate-400 px-5">Project Goals: Develop a website to showcase my past works</h2>
@@ -187,6 +194,7 @@ function PortfolioApp() {
     </p>
     <p className="text-slate-500 py-5 px-2 mr-10 ml-10">You are currently viewing the results of that work so far, I would be happy to speak about anything shown here!
     </p>
+  </div>
   </div>
   );
 }
